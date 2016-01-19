@@ -12,7 +12,7 @@ var StdListSeparator = ","
 
 var std = &Config{"", StdListSeparator, &decoder{StdListSeparator}}
 
-// SetValues sets config value based on enviroment variable.
+// SetValues sets config value based on environment variable.
 func SetValues(v interface{}) error {
 	return std.SetValues(v)
 }
@@ -26,7 +26,7 @@ type Config struct {
 }
 
 // NewConfig creates new config with given prefix.
-// The PREFIX_ will be add to every enviroment variable name.
+// The PREFIX_ will be add to every environment variable name.
 func NewConfig(prefix string) *Config {
 	return &Config{
 		prefix,
@@ -41,7 +41,7 @@ func (c *Config) SetListSeparator(separator string) {
 	c.d.separator = separator
 }
 
-// SetValues sets config value based on enviroment variable.
+// SetValues sets config value based on environment variable.
 func (c *Config) SetValues(v interface{}) (err error) {
 
 	defer func() {

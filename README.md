@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/krhubert/envconf.png)](https://travis-ci.org/krhubert/envconf)
 [![Coverage Status](https://coveralls.io/repos/github/krhubert/envconf/badge.svg)](https://coveralls.io/github/krhubert/envconf)
 [![Go Report Card](http://goreportcard.com/badge/krhubert/envconf)](http://goreportcard.com/report/krhubert/envconf)
+[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT)
 [![GoDoc](https://godoc.org/github.com/krhubert/envconf?status.svg)](https://godoc.org/github.com/krhubert/envconf)
 
 

@@ -1,6 +1,7 @@
 # Envconf
 
 [![Build Status](https://travis-ci.org/krhubert/envconf.png)](https://travis-ci.org/krhubert/envconf)
+[![Coverage Status](https://coveralls.io/repos/github/krhubert/envconf/badge.svg)](https://coveralls.io/github/krhubert/envconf)
 [![Go Report Card](http://goreportcard.com/badge/krhubert/envconf)](http://goreportcard.com/report/krhubert/envconf)
 [![GoDoc](https://godoc.org/github.com/krhubert/envconf?status.svg)](https://godoc.org/github.com/krhubert/envconf)
 
